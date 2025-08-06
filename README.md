@@ -16,7 +16,7 @@ imRobust is a powerful, modular, and user-friendly tool designed for developers,
 
 * [Features](#-features)
 * [Installation](#-installation)
-* [Usage](#-usage)
+* [Usage Exemple](#-exemple)
 * [Contributing](#-contributing)
 * [License](#-license)
 * [Ethics](#-ethics)
@@ -88,7 +88,7 @@ pip install -r requirements.txt
 
 ---
 
-## 💡 Usage Examples
+## 💡 Exemple
 
 ```bash
 # Ping target and perform DNS lookup
@@ -126,7 +126,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ---
 
-## ⚠️ Ethics & Legal Notice
+## ⚠️ Ethics
 
 imRobust is intended for **ethical security research and authorized penetration testing only**.
 Unauthorized scanning, reconnaissance, or attacks on systems without permission may be illegal and unethical.
