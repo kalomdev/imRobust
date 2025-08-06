@@ -19,7 +19,7 @@ imRobust is a powerful, modular, and user-friendly tool designed for developers,
 * [Usage](#-usage-exemple)
 * [Contributing](#-contributing)
 * [License](#-license)
-* [Ethics](#%EF%B8%8F-ethic)
+* [Ethics](#%EF%B8%8Fethics--legal-notice)
 
 ---
 
