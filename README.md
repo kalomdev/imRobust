@@ -88,7 +88,7 @@ pip install -r requirements.txt
 
 ---
 
-## 💡 Exemple
+## 💡 Usage Exemple
 
 ```bash
 # Ping target and perform DNS lookup
