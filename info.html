@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>imRobust - Network & Web Reconnaissance Tool</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Courier New', Courier, monospace;
+      background-color: #000000;
+      color: #e0e0e0;
+      margin: 0;
+      padding: 40px 20px;
+      line-height: 1.8;
+      font-size: 16px;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: auto;
+    }
+
+    .header-image {
+      display: block;
+      max-width: 100%;
+      height: auto;
+      margin: 0 auto 40px auto;
+      border-radius: 10px;
+      border: 1px solid #1e1e1e;
+    }
+
+    h2 {
+      color: #ff416c;
+      margin-top: 50px;
+      margin-bottom: 10px;
+      font-size: 1.6em;
+      text-shadow: 0 0 5px rgba(255, 65, 108, 0.3);
+    }
+
+    p {
+      max-width: 800px;
+      margin-bottom: 20px;
+      color: #c7c7c7;
+    }
+
+    strong {
+      color: #ffffff;
+    }
+
+    em {
+      color: #bbbbbb;
+    }
+
+    code {
+      background-color: #111;
+      padding: 3px 6px;
+      border-radius: 4px;
+      font-size: 0.95em;
+      color: #00ffff;
+    }
+
+    footer {
+      margin-top: 80px;
+      font-size: 0.85em;
+      color: #666;
+      text-align: center;
+      font-style: italic;
+    }
+
+    @media (max-width: 600px) {
+      body {
+        padding: 20px 10px;
+        font-size: 15px;
+      }
+
+      h2 {
+        font-size: 1.4em;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img src="ass/ass.png" alt="imRobust Logo" class="header-image" />
+
+    <p><strong>Developed by:</strong> Kalom</p>
+    <p><em>A comprehensive network and web reconnaissance tool designed for security professionals and developers.</em></p>
+
+    <h2>Overview</h2>
+    <p>
+      imRobust is a versatile tool aimed at providing detailed information about network targets and web applications.
+      It supports various reconnaissance techniques to gather essential data for security assessments and penetration testing.
+    </p>
+
+    <h2>Network Reconnaissance</h2>
+    <p>
+      The tool performs essential network-related tasks including pinging targets, performing DNS lookups, and retrieving Whois information.
+      It can trace the route to a target to analyze network paths, provide geographical data about IP addresses, and identify domains hosted on the same server.
+      Additionally, imRobust offers basic network sniffing capabilities on specified network interfaces to capture and analyze traffic.
+    </p>
+
+    <h2>SSL and Certificate Analysis</h2>
+    <p>
+      imRobust can retrieve SSL certificate details from servers and scan for common SSL/TLS vulnerabilities, helping to identify potential security weaknesses in encrypted connections.
+    </p>
+
+    <h2>Web Reconnaissance</h2>
+    <p>
+      For web application analysis, imRobust offers URL scanning with extraction of HTTP headers, cookies, links, forms, and scripts.
+      It checks HTTP status codes, fetches important files like <code>robots.txt</code> and <code>sitemap.xml</code>, fingerprints HTTP headers, and traces redirect chains.
+      The tool can also locate admin panels, verify allowed HTTP methods, and detect content management systems (CMS) used by websites.
+    </p>
+
+    <h2>Brute-Forcing and Enumeration</h2>
+    <p>
+      imRobust supports brute-force attacks on passwords and usernames using user-provided wordlists.
+      It enumerates subdomains and directories, helping testers discover hidden or unlinked resources on a target web server.
+    </p>
+
+    <h2>Service Detection and Output</h2>
+    <p>
+      The tool detects services running on open ports to provide insight into the target’s active network services.
+      Results can be saved in multiple formats such as JSON or CSV for further analysis and reporting.
+    </p>
+
+    <footer>
+      &copy; 2025 imRobust by Kalom — Network &amp; Web Reconnaissance Made Robust
+    </footer>
+  </div>
+</body>
+</html>
