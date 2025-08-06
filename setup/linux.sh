@@ -1,4 +1,3 @@
-#!/bin/bash
 
 echo "Updating system packages..."
 sudo apt update && sudo apt upgrade -y
@@ -13,3 +12,4 @@ echo "Installing Python dependencies..."
 pip3 install requests beautifulsoup4 dnspython whois scapy
 
 echo "Installation completed."
+
