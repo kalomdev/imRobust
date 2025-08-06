@@ -51,10 +51,6 @@ known_third_party = ["requests", "bs4", "dns", "whois", "scapy"]
 multi_line_output = 3
 include_trailing_comma = true
 
-[tool.pytest.ini_options]
-minversion = "6.0"
-addopts = "-ra -q"
-testpaths = ["tests"]
 
 [tool.mypy]
 python_version = 3.8
@@ -72,4 +68,5 @@ skip_covered = true
 
 [project.keywords]
 keywords = ["cyber", "cybersecurity", "network", "networking", "imrobust", "python", "pip", "windows", "linux", "mac"]
+
 
