@@ -1,0 +1,27 @@
+----------------------------------------------------
+TOOL     : imRobust
+DEV      : Kalom
+GITHUB   : github.com/kalomdev
+VERSION  : 4.02
+DATE     : 2025-08-04
+LICENSE  : MIT
+LANG     : Python 3.x
+DESC     : Advanced Network & Web Reconnaissance Tool
+----------------------------------------------------
+
+>> FEATURES
+
+- Network Recon: ping, dns, whois, traceroute, geoip, reverse-ip, sniff
+- SSL Analysis: cert info, TLS vuln scan
+- Web Recon: headers, cookies, links, forms, scripts, admin finder
+- Brute Force: subdomains, dirs, login forms
+- CMS Detection, Service Identification
+- Save Results: JSON / CSV format
+
+and more…
+
+----------------------------------------------------
+THIS TOOL IS DEVELOPED FOR LEGAL SECURITY RESEARCH ONLY.
+ANY UNAUTHORIZED USE IS STRICTLY PROHIBITED.
+IT WAS CREATED FOR AUTHORITIES, CYBERSECURITY RESEARCHERS, AND THOSE WHO WANT TO GET INTO PENTEST, NETWORK ANALYSIS, AND MUCH MORE...
+----------------------------------------------------
