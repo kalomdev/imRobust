@@ -126,7 +126,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ---
 
-## ⚠️ Ethic
+## ⚠️Ethics & Legal Notice
 
 imRobust is intended for **ethical security research and authorized penetration testing only**.
 Unauthorized scanning, reconnaissance, or attacks on systems without permission may be illegal and unethical.
