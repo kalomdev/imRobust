@@ -1,0 +1,75 @@
+[build-system]
+requires = ["setuptools>=65.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "imrobust"
+version = "4.0.2"
+description = "advanced network security and reconnaissance tool"
+readme = "README.md"
+requires-python = ">=3.8"
+license = {text = "MIT"}
+authors = [
+  {name = "Kalom"}
+]
+maintainers = [
+  {name = "Kalom"}
+]
+keywords = ["security", "network", "reconnaissance", "cybersecurity", "osint", "python", "website"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+  "Topic :: Security",
+  "Topic :: System :: Networking",
+  "Typing :: Typed"
+]
+dependencies = [
+  "requests>=2.28",
+  "beautifulsoup4>=4.11",
+  "dnspython>=2.3",
+  "python-whois>=0.7",
+  "scapy>=2.5",
+]
+
+[project.urls]
+Homepage = "https://github.com/norollback/imrobust"
+
+[project.scripts]
+imrobust = "imrobust.cli:main"
+
+[tool.black]
+line-length = 88
+target-version = ['py38']
+skip-string-normalization = false
+
+[tool.isort]
+profile = "black"
+line_length = 88
+known_first_party = ["imrobust"]
+known_third_party = ["requests", "bs4", "dns", "whois", "scapy"]
+multi_line_output = 3
+include_trailing_comma = true
+
+[tool.pytest.ini_options]
+minversion = "6.0"
+addopts = "-ra -q"
+testpaths = ["tests"]
+
+[tool.mypy]
+python_version = 3.8
+warn_unused_configs = true
+ignore_missing_imports = true
+strict = true
+
+[tool.coverage.run]
+branch = true
+source = ["imrobust"]
+
+[tool.coverage.report]
+show_missing = true
+skip_covered = true
+
+[project.keywords]
+keywords = ["cyber", "cybersecurity", "network", "networking", "imrobust", "python", "pip", "windows", "linux", "mac"]
+

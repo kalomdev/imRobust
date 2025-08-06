@@ -1,0 +1,7 @@
+requests
+beautifulsoup4
+dnspython
+whois
+geoip2
+scapy
+idna
