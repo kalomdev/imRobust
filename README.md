@@ -19,7 +19,7 @@ imRobust is a powerful, modular, and user-friendly tool designed for developers,
 * [Usage Exemple](#-exemple)
 * [Contributing](#-contributing)
 * [License](#-license)
-* [Ethics](#-ethics)
+* [Ethic & Legal Usage](#-ethic)
 
 ---
 
@@ -126,7 +126,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ---
 
-## ⚠️ Ethics
+## ⚠️ Ethic
 
 imRobust is intended for **ethical security research and authorized penetration testing only**.
 Unauthorized scanning, reconnaissance, or attacks on systems without permission may be illegal and unethical.
